@@ -1,0 +1,27 @@
+# How to use Open Interpreter locally
+
+# Ollama
+
+1. Download Ollama - https://ollama.ai/download
+2. `ollama run dolphin-mixtral:8x7b-v2.6`
+3. `interpreter --model ollama/dolphin-mixtral:8x7b-v2.6`
+
+# Jan.ai
+
+1. Download Jan - [Jan.ai](http://jan.ai/)
+2. Download model from Hub
+3. Enable API server
+   1. Settings
+   2. Advanced
+   3. Enable API server
+4. Select Model to use
+5. `interpreter --api_base http://localhost:1337/v1  --model mixtral-8x7b-instruct`
+
+# llamafile
+
+1. Download or make a llamafile - https://github.com/Mozilla-Ocho/llamafile
+2. `chmod +x mixtral-8x7b-instruct-v0.1.Q5_K_M.llamafile`
+3. `./mixtral-8x7b-instruct-v0.1.Q5_K_M.llamafile`
+4. `interpreter --api_base https://localhost:8080/v1`
+
+Make sure that Xcode is installed for Apple Silicon
