@@ -47,6 +47,7 @@ OpenInterpreter class has a boolean field `conversation_history`
 html_to_png_base64.py
 
 - The purpose of this file is to take an image of code and convert it to base64 and return the base64 string.
+- Uses Html2Image library - [link](https://pypi.org/project/html2image/) 
 - If we can base64 encode the image without needing to save the image, we can remove all mentions of `get_storage_path`
 - Can we just base64 the code directly? Why do we need an image?
 
