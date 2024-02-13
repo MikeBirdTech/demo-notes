@@ -67,4 +67,4 @@ html_to_png_base64.py
 
 - In the Python library, users can set this to be true or false. However, in that situation, it makes sense that the user will want to set the method and the path for how conversation history is saved.
 
-For `local_storage_path.py` - [repo](https://github.com/ActiveState/appdirs) This project has been officially deprecated. You may want to check out https://pypi.org/project/platformdirs/ which is a more active fork of appdirs. Thanks to everyone who has used appdirs. Shout out to ActiveState for the time they gave their employees to work on this over the years.
+In `local_storage_path.py` - appdirs [repo](https://github.com/ActiveState/appdirs) This project has been officially deprecated. You may want to check out https://pypi.org/project/platformdirs/ which is a more active fork of appdirs. Thanks to everyone who has used appdirs. Shout out to ActiveState for the time they gave their employees to work on this over the years.
