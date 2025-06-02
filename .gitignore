@@ -1,3 +1,4 @@
 .env
 .venv/
 .mypy_cache/
+node_modules/
