@@ -11,3 +11,4 @@ This project contains supplementary materials for various demonstrations:
 
 - **`llm-router/`**: Contains resources related to LLM routing examples.
 - **`Open Interpreter/`**: Contains resources related to Open Interpreter examples.
+- **`ollama/`**: Contains examples demonstrating Ollama's thinking model feature, including both Python and JavaScript implementations.
